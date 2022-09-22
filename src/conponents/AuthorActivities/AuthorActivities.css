@@ -1,0 +1,32 @@
+.activitiesSidebar {
+  flex: 0 0 233px;
+  border-right: 1px solid #ccc;
+  padding: 13px 15px;
+}
+#author-part .tab-content {
+  height: calc(100vh - 115px);
+}
+
+.activitiesSidebar h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.activitiesSidebar h2 svg {
+  font-size: 13px;
+}
+.activity-list li {
+  margin: 15px 0;
+}
+.activity-list li h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.activity-list li h6 {
+  font-size: 12px;
+}
+
+.hideActivities {
+  flex: 0 0 20px;
+  padding: 13px 6px;
+}

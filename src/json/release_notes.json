@@ -1,0 +1,7 @@
+{
+  "monitoringNewImprovements": {
+    "title": "Added new services",
+    "description": "Infrastructure Factory now supports deploying Keyvault and Storage account to Azzure",
+    "date": "September 1, 2022"
+  }
+}

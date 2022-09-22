@@ -1,0 +1,21 @@
+#ReleaseNotes .notes h5 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#ReleaseNotes .notes p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+#ReleaseNotes .notes {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.common-barSide {
+  height: calc(100vh - 40px) !important;
+  top: 40px;
+}
+div#ReleaseNotes {
+  z-index: 9999;
+}

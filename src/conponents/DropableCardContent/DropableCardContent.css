@@ -1,0 +1,20 @@
+.form-bottom-area {
+  width: 472px;
+  height: 290px;
+  overflow: scroll;
+}
+.table_values table tr td:first-child,
+.table_values table tr th:first-child {
+  width: 30px !important;
+}
+.table_values table tbody tr td .form_fields {
+  width: 140px;
+  font-size: 14px;
+}
+.table_values table tbody tr td select.form_fields {
+  padding: 2px 0;
+}
+#drapableTab .tab-content .table-responsive {
+  height: 179px;
+  overflow: scroll;
+}

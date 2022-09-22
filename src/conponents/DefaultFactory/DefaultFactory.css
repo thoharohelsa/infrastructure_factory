@@ -1,0 +1,12 @@
+.text_light_grey {
+  font-size: 13px;
+  color: #404040;
+}
+.page_top_bar select {
+  font-size: 13px;
+}
+.page_top_bar select option:first-child {
+  content: "";
+  background: url(../../img/infraicon.svg);
+  display: block;
+}

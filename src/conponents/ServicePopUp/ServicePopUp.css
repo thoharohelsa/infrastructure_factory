@@ -1,0 +1,32 @@
+.services-name {
+  flex: 0 0 29.33%;
+  border: 1px solid #ccc;
+  margin: 0 9px;
+  padding: 5px 0;
+  position: relative;
+  text-align: center;
+}
+.services-name .form-check-input[type="radio"] {
+  border-radius: unset;
+  position: absolute;
+  left: 24px;
+  right: 0;
+  width: 136px;
+  height: 35px;
+  opacity: 0;
+  top: -4px;
+  z-index: 2;
+  cursor: pointer;
+}
+.environment-popup label {
+  font-size: 14px;
+}
+.environment-popup .form-control,
+.environment-popup .form-select {
+  font-size: 13px;
+}
+.modal-btn {
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 3px;
+}

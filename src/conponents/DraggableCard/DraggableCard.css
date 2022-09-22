@@ -1,0 +1,13 @@
+.lines {
+    width: 1px;
+    height: 18px;
+    background: #dedcdc;
+    display: inline-block;
+    margin: 3px;
+}
+
+.activity-data {
+    border: 1px solid #ccc;
+    padding: 1px 5px;
+    cursor: pointer;
+}

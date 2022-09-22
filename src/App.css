@@ -1,0 +1,123 @@
+.page-wrapper {
+  height: calc(100vh - 40px);
+}
+.sidebar-container {
+  flex: 0 0 228px;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 0 8px rgb(0 0 0 / 20%);
+  height: 100%;
+  overflow: hidden;
+  transition: 0.2s all ease-in-out;
+}
+.page_content-container {
+  flex: 0 0 calc(100% - 228px);
+  width: 100%;
+}
+.menuhide .page_content-container {
+  flex: 0 0 calc(100% - 50px);
+}
+.menuhide .page_content-container #hero_banner {
+  background-position: 87% 0;
+  padding: 30px 8%;
+}
+
+/* manage sidebar css */
+.commonSidebar.authorleft-sidebar {
+  flex: 0 0 250px;
+}
+.commonSidebar {
+  flex: 0 0 210px;
+  border-right: 1px solid #dedede;
+  background-color: #fff;
+}
+.commonSidebar .nav-item:first-child i {
+  font-size: 17px;
+}
+.commonSidebar .nav-item {
+  font-size: 13px;
+}
+
+.commonSidebar .nav-item h6 {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0px 4px;
+  color: #323130;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.commonSidebar .nav-tabs .nav-link {
+  border: 0;
+  color: #323130;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.commonSidebar .nav-tabs .nav-item.show .nav-link,
+.commonSidebar .nav-tabs .nav-link.active {
+  background-color: #edebe9;
+  color: #323130;
+}
+.manage_main_content {
+  flex: 0 0 calc(100% - 210px);
+  padding: 0 15px;
+}
+.page-bottom-content {
+  height: calc(100vh - 80px);
+}
+.hide_sidebar {
+  flex: 0 0 30px;
+  overflow: hidden;
+}
+.successMsg {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 36px;
+  color: #1e7c0d;
+  font-weight: 700;
+  font-size: 14px !important;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px #9f9f9f;
+}
+.errmsg {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 36px;
+  color: #ed2626;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px #9f9f9f;
+  word-break: break-all;
+}
+#Notification {
+  z-index: 9999;
+}
+
+.search-filter {
+  flex: 0 0 90%;
+}
+.search-filter input {
+  font-size: 12px;
+}
+.search-filter .filter-icon {
+  font-size: 13px;
+}
+
+#author-part .manage_main_content {
+  flex: 0 0 calc(100% - 250px);
+}
+#author-part .manage_main_content.fullManageContent {
+  flex: 0 0 calc(100% - 35px);
+}
+.pointers {
+  cursor: pointer;
+}
+.commonSidebar h5 {
+  font-size: 17px;
+}

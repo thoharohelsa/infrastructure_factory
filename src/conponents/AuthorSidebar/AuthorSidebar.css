@@ -1,0 +1,110 @@
+/* author css */
+.commonSidebar .nav-tabs .nav-link.author-list {
+  height: 40px;
+}
+.commonSidebar .nav-tabs .nav-link.author-list svg,
+.commonSidebar .nav-tabs .nav-link.author-list .pipe-line-counter {
+  font-size: 14px;
+}
+.commonSidebar .nav-tabs .nav-link.author-list:hover .pipe-line-counter {
+  display: none !important;
+}
+.commonSidebar .nav-tabs .nav-link.author-list:hover .pipe-line-menu {
+  display: block !important;
+}
+.commonSidebar .nav-tabs .nav-link.author-list h5 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 10px 0px 4px;
+  color: #323130;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.authorleft-sidebar .nav-item .menu-list.ResourceList {
+  top: 36px;
+}
+.authorleft-sidebar .nav-item .menu-list {
+  z-index: 99;
+  position: absolute;
+  width: max-content;
+  left: 84%;
+  background-color: #fff;
+  box-shadow: 0 2px 12px #dbdbdb;
+  display: inline-block;
+}
+
+.pipeline-submenus .pipline-items .ResourceList li:before {
+  content: unset;
+}
+/* .pipeline-submenus .pipline-items li:before {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #b1a9a9;
+  position: absolute;
+  left: 12px;
+  top: 13px;
+} */
+.pipeline-submenus .pipline-items li {
+  position: relative;
+}
+.pipeline-submenus .pipline-items li .envList {
+  /* background: #edebe9; */
+  padding: 8px 15px;
+  font-size: 12px;
+}
+
+.pipeline-submenus .pipline-items img {
+  width: 18px;
+}
+.commonSidebar.authorleft-sidebar.hide_sidebar {
+  flex: 0 0 35px;
+}
+
+.removeActive {
+  background-color: transparent !important;
+}
+
+.pipeline-submenus .pipline-items .ResourceList li {
+  padding: 6px 15px;
+}
+.pipeline-submenus .pipline-items .ResourceList .addResource {
+  position: absolute;
+  top: 12px;
+  left: 100%;
+}
+.pipeline-submenus .pipline-items .ResourceList li svg.rotate-icon {
+  transform: rotate(315deg);
+}
+.pipeline-submenus .pipline-items .ResourceList li svg {
+  display: block;
+  font-size: 13px;
+}
+.pipeline-submenus .pipline-items li svg {
+  display: none;
+}
+.pipeline-submenus .pipline-items li svg.triangleShow {
+  display: block;
+  font-size: 16px;
+}
+.pipeline-submenus .pipline-items li:hover .envList,
+.pipeline-submenus .pipline-items li.active .envList {
+  background-color: #edebe9;
+  color: #323130;
+}
+.pipeline-submenus .pipline-items li:hover svg {
+  display: block;
+  cursor: pointer;
+}
+
+.pipeline-submenus .pipline-items li ul {
+  display: none !important;
+}
+.pipeline-submenus .pipline-items li.active ul {
+  display: inline-block !important;
+}
+.pipeline-submenus .pipline-items .subenvlist img {
+  width: 13px;
+}

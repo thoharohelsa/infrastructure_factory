@@ -1,0 +1,55 @@
+#manageService_form {
+  z-index: 999;
+  overflow: scroll;
+}
+#manageService_form .form-control,
+#manageService_form select {
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid #3e3e3e;
+  border-radius: 0;
+}
+#manageService_form .form-label {
+  font-size: 13px;
+  font-weight: 600;
+}
+#manageService_form p {
+  font-size: 13px;
+}
+#manageService_form p img {
+  width: 23px;
+}
+#manageService_form form {
+  overflow: scroll;
+  height: 85%;
+  padding: 20px 0;
+}
+.bottomFooter .commonBtn.continueBtn.active-btn {
+  cursor: pointer;
+  pointer-events: unset;
+}
+.bottomFooter .commonBtn.continueBtn.disablebtn {
+  pointer-events: none;
+  color: #ccc;
+}
+
+.detail_errMsg {
+  position: absolute;
+  z-index: 9;
+  width: 79%;
+  right: 0;
+  bottom: 63px;
+  height: 49%;
+  overflow-y: scroll;
+}
+.detail_errMsg.expand-div {
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 63px;
+  height: 91%;
+}
+.err_body .codes h6 {
+  flex: 0 0 100px;
+}

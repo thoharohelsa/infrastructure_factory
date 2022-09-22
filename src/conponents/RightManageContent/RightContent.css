@@ -1,0 +1,39 @@
+.button_form {
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+.RightContent h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.manage_form input {
+  font-size: 14px;
+}
+.manage_form .fa {
+  font-size: 14px;
+}
+.manage_form button {
+  font-size: 14px;
+}
+.RightContent .results {
+  font-size: 13px;
+}
+.RightContent table thead {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+.RightContent table tbody td {
+  font-size: 14px;
+}
+.RightContent table th {
+  border-right: 1px solid transparent;
+  font-size: 14px;
+}
+.RightContent table thead:hover th {
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.RightContent .servicedata {
+  overflow-y: auto;
+  height: 418px;
+}

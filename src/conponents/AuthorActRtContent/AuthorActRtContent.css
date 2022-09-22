@@ -1,0 +1,47 @@
+.action-menu {
+  padding: 10px;
+  z-index: 99;
+  position: absolute;
+  width: max-content;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 12px #dbdbdb;
+  display: inline-block;
+  top: 123%;
+}
+.action-menu li {
+  font-size: 14px;
+  margin: 4px 0;
+}
+.act_TOP_BAR ul li {
+  cursor: pointer;
+}
+.act_TOP_BAR ul.validation_list li {
+  font-size: 13px;
+}
+.dropable_area {
+  flex: 0 0 calc(100% - 315px);
+}
+.dropable-card-content {
+  height: calc(100% - 250px);
+}
+.cardDraggableCanvas {
+  height: 250px;
+}
+.dropable_area.fullWidthshow {
+  flex: 0 0 100%;
+}
+
+.middle_act_content {
+  height: calc(100% - 41px);
+}
+
+.jsonData {
+  position: absolute;
+  top: 41px;
+  width: 100%;
+  background: #fff;
+  height: 100%;
+  left: 51px;
+  box-shadow: 0 2px 12px #ada4a4;
+}
